@@ -35,7 +35,7 @@ class Example(QDialog):
         qp.end()
 
     def draw_flag_3(self, qp):
-        qp.setBrush(QColor(250, 50, 170))
+        qp.setBrush(QColor(250, 250, 10))
         qp.drawEllipse(self.cor[0], self.cor[1], self.cor[2], self.cor[3])
 
     def mouseMoveEvent(self, event):
