@@ -43,12 +43,6 @@ class MyWidget(QDialog):
         sp_xy.append(n)
         return sp_xy
 
-    def get_rondom_color(self):
-        color = []
-        for i in range(3):
-            color.append(random.randint(0, 255))
-        return color
-
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
