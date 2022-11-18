@@ -42,7 +42,7 @@ class Example(QDialog):
         self.coord = event.x(), event.y()
 
     def get_xy(self, x, y):
-        n = random.randint(10, 300)
+        n = random.randint(10, 250)
         sp_xy = []
         sp_xy.append(x - n)
         sp_xy.append(y - n)
